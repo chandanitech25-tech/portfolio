@@ -1,0 +1,1439 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sagun Tripathi | Data Analyst Portfolio</title>
+  <meta name="description" content="Portfolio of Sagun Tripathi - Aspiring Data Analyst skilled in SQL, Power BI, Microsoft Excel, Tableau, Power Query, and DAX. Explore interactive business dashboards and data analytics projects.">
+  <meta name="keywords" content="Sagun Tripathi, Data Analyst, Power BI, SQL, Microsoft Excel, Tableau, DAX, Power Query, Data Modeling, Portfolio">
+  <meta name="author" content="Sagun Tripathi">
+  
+  <!-- Open Graph / Social Meta Tags -->
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Sagun Tripathi | Data Analyst Portfolio">
+  <meta property="og:description" content="Aspiring Data Analyst skilled in SQL, Power BI, Microsoft Excel, Tableau, DAX, and Data Modeling. View interactive dashboards and projects.">
+  <meta property="og:image" content="/sagun-tripathi.jpg">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Sagun Tripathi | Data Analyst Portfolio">
+  <meta name="twitter:description" content="Aspiring Data Analyst skilled in SQL, Power BI, Microsoft Excel, Tableau, DAX, and Data Modeling.">
+  <meta name="twitter:image" content="/sagun-tripathi.jpg">
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/svg+xml" href="/favicon.svg">
+  
+  <!-- Google Fonts: Inter & Plus Jakarta Sans -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Plus+Jakarta+Sans:wght@500;600;700;800&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+  
+  <link rel="stylesheet" href="/src/styles/main.css">
+</head>
+<body>
+  <!-- Background Ambient Glow -->
+  <div class="bg-glow bg-glow-1" aria-hidden="true"></div>
+  <div class="bg-glow bg-glow-2" aria-hidden="true"></div>
+
+  <!-- Header / Navigation -->
+  <header class="header" id="header">
+    <div class="container nav-container">
+      <a href="#hero" class="brand" aria-label="Sagun Tripathi Portfolio Home">
+        <span class="brand-monogram">ST</span>
+        <span class="brand-text">
+          <span class="brand-name">Sagun Tripathi</span>
+          <span class="brand-sub">Data Analyst</span>
+        </span>
+      </a>
+
+      <!-- Desktop Nav -->
+      <nav class="nav-menu" id="nav-menu" aria-label="Main Navigation">
+        <ul class="nav-list">
+          <li><a href="#about" class="nav-link">About</a></li>
+          <li><a href="#skills" class="nav-link">Skills</a></li>
+          <li><a href="#experience" class="nav-link">Experience</a></li>
+          <li><a href="#projects" class="nav-link">Projects</a></li>
+          <li><a href="#education" class="nav-link">Education</a></li>
+          <li><a href="#certifications" class="nav-link">Certifications</a></li>
+          <li><a href="#contact" class="nav-link">Contact</a></li>
+        </ul>
+      </nav>
+
+      <div class="nav-actions">
+        <a href="./Sagun_Tripathi_Resume.pdf" class="btn btn-outline btn-sm nav-resume-btn" download="Sagun_Tripathi_Resume.pdf" target="_blank" rel="noopener noreferrer">
+          <svg class="icon" viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+            <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path>
+            <polyline points="7 10 12 15 17 10"></polyline>
+            <line x1="12" y1="15" x2="12" y2="3"></line>
+          </svg>
+          <span>Resume PDF</span>
+        </a>
+        <button class="nav-toggle" id="nav-toggle" aria-label="Toggle navigation menu" aria-expanded="false" aria-controls="nav-menu">
+          <span class="hamburger-bar"></span>
+          <span class="hamburger-bar"></span>
+          <span class="hamburger-bar"></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- Mobile Menu Drawer Backdrop & Content -->
+  <div class="mobile-drawer-backdrop" id="drawer-backdrop" aria-hidden="true"></div>
+  <aside class="mobile-drawer" id="mobile-drawer" aria-label="Mobile Navigation" aria-hidden="true">
+    <div class="drawer-header">
+      <div class="brand">
+        <span class="brand-monogram">ST</span>
+        <span class="brand-text">
+          <span class="brand-name">Sagun Tripathi</span>
+          <span class="brand-sub">Data Analyst</span>
+        </span>
+      </div>
+      <button class="drawer-close" id="drawer-close" aria-label="Close navigation menu">
+        <svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+          <line x1="18" y1="6" x2="6" y2="18"></line>
+          <line x1="6" y1="6" x2="18" y2="18"></line>
+        </svg>
+      </button>
+    </div>
+    <ul class="drawer-nav-list">
+      <li><a href="#about" class="drawer-link">About</a></li>
+      <li><a href="#skills" class="drawer-link">Technical Skills</a></li>
+      <li><a href="#experience" class="drawer-link">Experience</a></li>
+      <li><a href="#projects" class="drawer-link">Projects</a></li>
+      <li><a href="#education" class="drawer-link">Education</a></li>
+      <li><a href="#certifications" class="drawer-link">Certifications</a></li>
+      <li><a href="#contact" class="drawer-link">Contact</a></li>
+    </ul>
+    <div class="drawer-footer">
+      <a href="./Sagun_Tripathi_Resume.pdf" class="btn btn-primary btn-block" download="Sagun_Tripathi_Resume.pdf" target="_blank" rel="noopener noreferrer">
+        <svg class="icon" viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+          <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path>
+          <polyline points="7 10 12 15 17 10"></polyline>
+          <line x1="12" y1="15" x2="12" y2="3"></line>
+        </svg>
+        Download Resume
+      </a>
+      <div class="drawer-socials">
+        <a href="https://github.com/sagun-tripathi" target="_blank" rel="noopener noreferrer" aria-label="GitHub Profile" class="social-icon-btn">
+          <svg viewBox="0 0 24 24" width="20" height="20" fill="currentColor" aria-hidden="true"><path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0 0 24 12c0-6.63-5.37-12-12-12z"/></svg>
+        </a>
+        <a href="https://www.linkedin.com/in/sagun-tripathi-554453227" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn Profile" class="social-icon-btn">
+          <svg viewBox="0 0 24 24" width="20" height="20" fill="currentColor" aria-hidden="true"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451c.979 0 1.778-.773 1.778-1.729V1.73C24 .774 23.205 0 22.225 0z"/></svg>
+        </a>
+        <a href="mailto:tiwarishagun2004@gmail.com" aria-label="Email Sagun Tripathi" class="social-icon-btn">
+          <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path><polyline points="22,6 12,13 2,6"></polyline></svg>
+        </a>
+      </div>
+    </div>
+  </aside>
+
+  <main id="main-content">
+    <!-- Hero Section -->
+    <section class="hero-section" id="hero">
+      <div class="container hero-container">
+        <div class="hero-content">
+          <div class="badge-status">
+            <span class="badge-dot"></span>
+            <span>Available for Entry-Level Data Analyst Roles</span>
+          </div>
+
+          <h1 class="hero-title">
+            Hi, I'm <span class="text-gradient">Sagun Tripathi</span>
+          </h1>
+
+          <p class="hero-subtitle">
+            <span class="role-highlight">Data Analyst</span>
+            <span class="role-separator">|</span>
+            <span class="role-tools">SQL • Microsoft Excel • Power BI • Tableau</span>
+          </p>
+
+          <p class="hero-description">
+            Aspiring Data Analyst with hands-on experience in SQL, Microsoft Excel, Power BI, Tableau, Power Query, DAX, data cleaning, data transformation, data modeling, dashboard development, and data visualization. Built interactive business dashboards to analyze sales and e-commerce performance, track KPIs, and convert raw data into actionable business insights.
+          </p>
+
+          <div class="hero-cta-group">
+            <a href="#projects" class="btn btn-primary" id="hero-view-projects-btn">
+              <span>View Projects</span>
+              <svg class="icon" viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                <line x1="5" y1="12" x2="19" y2="12"></line>
+                <polyline points="12 5 19 12 12 19"></polyline>
+              </svg>
+            </a>
+            <a href="#contact" class="btn btn-secondary" id="hero-contact-btn">
+              <span>Contact Me</span>
+              <svg class="icon" viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
+                <polyline points="22,6 12,13 2,6"></polyline>
+              </svg>
+            </a>
+            <a href="./Sagun_Tripathi_Resume.pdf" class="btn btn-ghost" download="Sagun_Tripathi_Resume.pdf" target="_blank" rel="noopener noreferrer">
+              <svg class="icon" viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path>
+                <polyline points="14 2 14 8 20 8"></polyline>
+                <line x1="16" y1="13" x2="8" y2="13"></line>
+                <line x1="16" y1="17" x2="8" y2="17"></line>
+                <polyline points="10 9 9 9 8 9"></polyline>
+              </svg>
+              <span>Download CV</span>
+            </a>
+          </div>
+
+          <!-- Hero Meta Links -->
+          <div class="hero-social-strip">
+            <span class="social-label">Connect & Explore:</span>
+            <div class="social-links">
+              <a href="https://github.com/sagun-tripathi" target="_blank" rel="noopener noreferrer" class="social-chip" id="hero-github-link">
+                <svg viewBox="0 0 24 24" width="18" height="18" fill="currentColor" aria-hidden="true"><path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0 0 24 12c0-6.63-5.37-12-12-12z"/></svg>
+                <span>github.com/sagun-tripathi</span>
+              </a>
+              <a href="https://www.linkedin.com/in/sagun-tripathi-554453227" target="_blank" rel="noopener noreferrer" class="social-chip" id="hero-linkedin-link">
+                <svg viewBox="0 0 24 24" width="18" height="18" fill="currentColor" aria-hidden="true"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451c.979 0 1.778-.773 1.778-1.729V1.73C24 .774 23.205 0 22.225 0z"/></svg>
+                <span>linkedin.com/in/sagun-tripathi</span>
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Hero Photo Presentation -->
+        <div class="hero-image-wrapper">
+          <div class="photo-card">
+            <div class="photo-glow" aria-hidden="true"></div>
+            <div class="photo-frame">
+              <img 
+                src="/sagun-tripathi.jpg" 
+                alt="Sagun Tripathi - Data Analyst" 
+                class="hero-photo"
+                width="420"
+                height="420"
+                loading="eager"
+              >
+            </div>
+            <!-- Floating Verified Metric Pill 1 -->
+            <div class="floating-badge badge-top-right">
+              <div class="badge-icon-wrap">
+                <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="#38BDF8" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                  <path d="M12 20V10"></path>
+                  <path d="M18 20V4"></path>
+                  <path d="M6 20v-4"></path>
+                </svg>
+              </div>
+              <div class="badge-text-wrap">
+                <span class="badge-small-title">Power BI & DAX</span>
+                <span class="badge-small-sub">KPI Dashboards</span>
+              </div>
+            </div>
+            <!-- Floating Verified Metric Pill 2 -->
+            <div class="floating-badge badge-bottom-left">
+              <div class="badge-icon-wrap">
+                <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="#10B981" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                  <ellipse cx="12" cy="5" rx="9" ry="3"></ellipse>
+                  <path d="M21 12c0 1.66-4 3-9 3s-9-1.34-9-3"></path>
+                  <path d="M3 5v14c0 1.66 4 3 9 3s9-1.34 9-3V5"></path>
+                </svg>
+              </div>
+              <div class="badge-text-wrap">
+                <span class="badge-small-title">SQL Query Writing</span>
+                <span class="badge-small-sub">Data Modeling & Analysis</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="section about-section" id="about">
+      <div class="container">
+        <div class="section-header">
+          <p class="section-tag">About Me</p>
+          <h2 class="section-title">Turning Raw Business Data Into <span class="text-gradient">Actionable Intelligence</span></h2>
+        </div>
+
+        <div class="about-grid">
+          <div class="about-text-card">
+            <h3 class="about-card-title">Professional Background</h3>
+            <p class="about-body">
+              I am an aspiring Data Analyst passionate about translating complex datasets into clear, decision-ready visual stories. With strong analytical skills and practical experience in SQL, Microsoft Excel, Power BI, Tableau, Power Query, and DAX, I specialize in end-to-end data processing: from raw data extraction and relational cleaning to data modeling and executive dashboard deployment.
+            </p>
+            <p class="about-body">
+              Through hands-on analytical projects spanning multi-million transaction banking systems, retail e-commerce pipelines, and product sales monitoring, I have established a track record of identifying critical operational trends, customer distributions, and business-critical KPIs.
+            </p>
+            
+            <div class="key-traits-grid">
+              <div class="trait-item">
+                <div class="trait-icon">
+                  <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                    <circle cx="11" cy="11" r="8"></circle>
+                    <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+                  </svg>
+                </div>
+                <div>
+                  <h4 class="trait-title">Analytical Thinking</h4>
+                  <p class="trait-desc">Deconstructing business problems to identify root causes and patterns.</p>
+                </div>
+              </div>
+
+              <div class="trait-item">
+                <div class="trait-icon">
+                  <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                    <rect x="3" y="3" width="18" height="18" rx="2" ry="2"></rect>
+                    <line x1="3" y1="9" x2="21" y2="9"></line>
+                    <line x1="9" y1="21" x2="9" y2="9"></line>
+                  </svg>
+                </div>
+                <div>
+                  <h4 class="trait-title">Structured Data Modeling</h4>
+                  <p class="trait-desc">Building star schemas, table relationships, and performant DAX measures.</p>
+                </div>
+              </div>
+
+              <div class="trait-item">
+                <div class="trait-icon">
+                  <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                    <path d="M21.21 15.89A10 10 0 1 1 8 2.83"></path>
+                    <path d="M22 12A10 10 0 0 0 12 2v10z"></path>
+                  </svg>
+                </div>
+                <div>
+                  <h4 class="trait-title">Executive Reporting</h4>
+                  <p class="trait-desc">Designing intuitive dashboards tailored for management decision-making.</p>
+                </div>
+              </div>
+
+              <div class="trait-item">
+                <div class="trait-icon">
+                  <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                    <polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon>
+                  </svg>
+                </div>
+                <div>
+                  <h4 class="trait-title">Continuous Learning</h4>
+                  <p class="trait-desc">Certified in emerging AI tools transforming analytics and digital performance.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Quick Info Sidebar -->
+          <div class="about-sidebar">
+            <div class="profile-card">
+              <h3 class="sidebar-title">Profile Snapshot</h3>
+              
+              <ul class="snapshot-list">
+                <li class="snapshot-item">
+                  <span class="snapshot-label">Full Name</span>
+                  <span class="snapshot-val">Sagun Tripathi</span>
+                </li>
+                <li class="snapshot-item">
+                  <span class="snapshot-label">Role Focus</span>
+                  <span class="snapshot-val highlight">Entry-Level Data Analyst</span>
+                </li>
+                <li class="snapshot-item">
+                  <span class="snapshot-label">Education</span>
+                  <span class="snapshot-val">B.Sc. (2022 - 2025)</span>
+                </li>
+                <li class="snapshot-item">
+                  <span class="snapshot-label">University</span>
+                  <span class="snapshot-val">CSJM University, Kanpur</span>
+                </li>
+                <li class="snapshot-item">
+                  <span class="snapshot-label">Location</span>
+                  <span class="snapshot-val">Kannauj, India</span>
+                </li>
+                <li class="snapshot-item">
+                  <span class="snapshot-label">Primary Tools</span>
+                  <span class="snapshot-val">SQL, Power BI, Excel, Tableau</span>
+                </li>
+              </ul>
+
+              <div class="sidebar-action">
+                <a href="#contact" class="btn btn-outline btn-block">
+                  <span>Get in Touch</span>
+                  <svg class="icon" viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                    <line x1="5" y1="12" x2="19" y2="12"></line>
+                    <polyline points="12 5 19 12 12 19"></polyline>
+                  </svg>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section class="section skills-section" id="skills">
+      <div class="container">
+        <div class="section-header">
+          <p class="section-tag">Technical Competencies</p>
+          <h2 class="section-title">Verified Skills & <span class="text-gradient">Core Capabilities</span></h2>
+          <p class="section-subtitle">Categorized strictly according to resume qualifications, analytical tooling, and practical competencies.</p>
+        </div>
+
+        <div class="skills-grid">
+          <!-- Skill Card 1: SQL -->
+          <div class="skill-category-card">
+            <div class="skill-category-header">
+              <div class="skill-icon-wrap icon-sql">
+                <svg viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                  <ellipse cx="12" cy="5" rx="9" ry="3"></ellipse>
+                  <path d="M21 12c0 1.66-4 3-9 3s-9-1.34-9-3"></path>
+                  <path d="M3 5v14c0 1.66 4 3 9 3s9-1.34 9-3V5"></path>
+                </svg>
+              </div>
+              <div>
+                <h3 class="skill-cat-title">SQL & Databases</h3>
+                <span class="skill-badge-tag">Querying & Analysis</span>
+              </div>
+            </div>
+            <ul class="skill-tags-list">
+              <li class="skill-tag">SQL Query Writing</li>
+              <li class="skill-tag">Data Analysis</li>
+              <li class="skill-tag">Data Filtering</li>
+              <li class="skill-tag">Aggregation Functions</li>
+              <li class="skill-tag">Business Reporting</li>
+              <li class="skill-tag">Relational Data Queries</li>
+            </ul>
+          </div>
+
+          <!-- Skill Card 2: Power BI -->
+          <div class="skill-category-card featured-skill-card">
+            <div class="skill-category-header">
+              <div class="skill-icon-wrap icon-powerbi">
+                <svg viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                  <rect x="3" y="12" width="4" height="8" rx="1"></rect>
+                  <rect x="10" y="7" width="4" height="13" rx="1"></rect>
+                  <rect x="17" y="3" width="4" height="17" rx="1"></rect>
+                </svg>
+              </div>
+              <div>
+                <h3 class="skill-cat-title">Power BI</h3>
+                <span class="skill-badge-tag highlight-tag">Advanced Dashboards</span>
+              </div>
+            </div>
+            <ul class="skill-tags-list">
+              <li class="skill-tag">DAX Measures</li>
+              <li class="skill-tag">Power Query ETL</li>
+              <li class="skill-tag">Data Modeling</li>
+              <li class="skill-tag">Dashboard Development</li>
+              <li class="skill-tag">KPI Tracking</li>
+              <li class="skill-tag">Data Visualization</li>
+            </ul>
+          </div>
+
+          <!-- Skill Card 3: Microsoft Excel -->
+          <div class="skill-category-card">
+            <div class="skill-category-header">
+              <div class="skill-icon-wrap icon-excel">
+                <svg viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                  <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path>
+                  <polyline points="14 2 14 8 20 8"></polyline>
+                  <line x1="8" y1="13" x2="16" y2="13"></line>
+                  <line x1="8" y1="17" x2="16" y2="17"></line>
+                  <line x1="10" y1="9" x2="8" y2="9"></line>
+                </svg>
+              </div>
+              <div>
+                <h3 class="skill-cat-title">Microsoft Excel</h3>
+                <span class="skill-badge-tag">Dynamic Analytics</span>
+              </div>
+            </div>
+            <ul class="skill-tags-list">
+              <li class="skill-tag">Pivot Tables</li>
+              <li class="skill-tag">Pivot Charts</li>
+              <li class="skill-tag">Interactive Slicers</li>
+              <li class="skill-tag">Data Analysis</li>
+              <li class="skill-tag">Dashboard Development</li>
+              <li class="skill-tag">Sales Performance Reports</li>
+            </ul>
+          </div>
+
+          <!-- Skill Card 4: Tableau & Google Sheets -->
+          <div class="skill-category-card">
+            <div class="skill-category-header">
+              <div class="skill-icon-wrap icon-tableau">
+                <svg viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                  <circle cx="12" cy="12" r="10"></circle>
+                  <path d="M12 2a14.5 14.5 0 0 0 0 20 14.5 14.5 0 0 0 0-20"></path>
+                  <path d="M2 12h20"></path>
+                </svg>
+              </div>
+              <div>
+                <h3 class="skill-cat-title">Tableau & Sheets</h3>
+                <span class="skill-badge-tag">Visual Reporting</span>
+              </div>
+            </div>
+            <ul class="skill-tags-list">
+              <li class="skill-tag">Tableau Dashboard Development</li>
+              <li class="skill-tag">Data Visualization</li>
+              <li class="skill-tag">Business Reporting</li>
+              <li class="skill-tag">Google Sheets Analysis</li>
+              <li class="skill-tag">Spreadsheet Reporting</li>
+            </ul>
+          </div>
+
+          <!-- Skill Card 5: Data & Analytics Core -->
+          <div class="skill-category-card">
+            <div class="skill-category-header">
+              <div class="skill-icon-wrap icon-data">
+                <svg viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                  <path d="M22 12h-4l-3 9L9 3l-3 9H2"></path>
+                </svg>
+              </div>
+              <div>
+                <h3 class="skill-cat-title">Data Pipeline & Insights</h3>
+                <span class="skill-badge-tag">End-to-End Workflow</span>
+              </div>
+            </div>
+            <ul class="skill-tags-list">
+              <li class="skill-tag">Data Cleaning</li>
+              <li class="skill-tag">Data Transformation</li>
+              <li class="skill-tag">Data Modeling</li>
+              <li class="skill-tag">KPI Definition</li>
+              <li class="skill-tag">Business Insights</li>
+              <li class="skill-tag">Trend Identification</li>
+            </ul>
+          </div>
+
+          <!-- Skill Card 6: Core Competencies -->
+          <div class="skill-category-card">
+            <div class="skill-category-header">
+              <div class="skill-icon-wrap icon-competency">
+                <svg viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                  <path d="M14 9V5a3 3 0 0 0-3-3l-4 9v11h11.28a2 2 0 0 0 2-1.7l1.38-9a2 2 0 0 0-2-2.3zM7 22H4a2 2 0 0 1-2-2v-7a2 2 0 0 1 2-2h3"></path>
+                </svg>
+              </div>
+              <div>
+                <h3 class="skill-cat-title">Core Competencies</h3>
+                <span class="skill-badge-tag">Analytical Foundation</span>
+              </div>
+            </div>
+            <ul class="skill-tags-list">
+              <li class="skill-tag">Problem Solving</li>
+              <li class="skill-tag">Analytical Thinking</li>
+              <li class="skill-tag">Business Reporting</li>
+              <li class="skill-tag">SQL Query Optimization</li>
+              <li class="skill-tag">Data Analysis</li>
+              <li class="skill-tag">Cross-functional Communication</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section class="section experience-section" id="experience">
+      <div class="container">
+        <div class="section-header">
+          <p class="section-tag">Work & Practical Background</p>
+          <h2 class="section-title">Professional <span class="text-gradient">Experience</span></h2>
+          <p class="section-subtitle">Practical industry applications, end-to-end analytics engagements, and hands-on business intelligence practice.</p>
+        </div>
+
+        <div class="experience-timeline">
+          <!-- Timeline Item 1 -->
+          <div class="timeline-item">
+            <div class="timeline-marker" aria-hidden="true"></div>
+            <article class="experience-card">
+              <div class="exp-card-header">
+                <div class="exp-header-left">
+                  <div class="exp-logo-wrap" aria-hidden="true">
+                    <span class="exp-logo-text">DA</span>
+                  </div>
+                  <div class="exp-role-group">
+                    <h3 class="exp-role">Data Analyst</h3>
+                    <h4 class="exp-company">Hands-On Analytics & BI Trainee</h4>
+                  </div>
+                </div>
+                <div class="exp-header-right">
+                  <span class="exp-type-badge">Project & Academic Practice</span>
+                  <div class="exp-meta-row">
+                    <span class="exp-meta-item">
+                      <svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect><line x1="16" y1="2" x2="16" y2="6"></line><line x1="8" y1="2" x2="8" y2="6"></line><line x1="3" y1="10" x2="21" y2="10"></line></svg>
+                      <span>2025 – 2026</span>
+                    </span>
+                    <span class="exp-meta-item">
+                      <svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path><circle cx="12" cy="10" r="3"></circle></svg>
+                      <span>Lucknow, India</span>
+                    </span>
+                  </div>
+                </div>
+              </div>
+
+              <div class="exp-card-body">
+                <p class="exp-description">
+                  Delivered end-to-end data processing, relational data modeling, and executive dashboard solutions across banking, retail e-commerce, and commercial sales datasets. Focused on transforming complex relational databases into strategic KPI reports and actionable management insights.
+                </p>
+
+                <div class="exp-responsibilities">
+                  <h5 class="exp-subhead">Key Responsibilities & Deliverables:</h5>
+                  <ul class="exp-resp-list">
+                    <li>Built executive Power BI dashboards analyzing 253K+ banking transactions, 4.50K accounts, and monitoring 103.26M CZK in credit exposure.</li>
+                    <li>Designed structured star-schema data models, established table relationships, and authored DAX measures for KPI-based business reporting.</li>
+                    <li>Cleaned, normalized, and shaped raw multi-table datasets using Power Query ETL workflows and advanced SQL query filtering.</li>
+                    <li>Developed dynamic Excel analytical reports with Pivot Tables, Pivot Charts, and interactive Slicers to assess customer demographics and sales trends.</li>
+                  </ul>
+                </div>
+
+                <div class="exp-tech-stack">
+                  <span class="exp-tech-label">Technologies & Skills:</span>
+                  <div class="tool-tags">
+                    <span class="tool-pill">SQL</span>
+                    <span class="tool-pill">Power BI</span>
+                    <span class="tool-pill">Power Query</span>
+                    <span class="tool-pill">DAX</span>
+                    <span class="tool-pill">Microsoft Excel</span>
+                    <span class="tool-pill">Tableau</span>
+                    <span class="tool-pill">Data Modeling</span>
+                    <span class="tool-pill">KPI Reporting</span>
+                  </div>
+                </div>
+              </div>
+            </article>
+          </div>
+
+          <!-- Timeline Notice Slot / Ready to plug real employment details -->
+          <div class="timeline-slot-notice">
+            <div class="slot-notice-icon">
+              <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                <rect x="2" y="7" width="20" height="14" rx="2" ry="2"></rect>
+                <path d="M16 21V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v16"></path>
+              </svg>
+            </div>
+            <div class="slot-notice-content">
+              <h4 class="slot-notice-title">Ready for Your Dedicated Work Experience</h4>
+              <p class="slot-notice-text">
+                This timeline structure is fully responsive and supports company logos, employment type badges (Internship, Full-time, Open Source), date ranges, locations, and detailed responsibilities. Share your specific company details to have them seamlessly updated here.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section class="section projects-section" id="projects">
+      <div class="container">
+        <div class="section-header">
+          <p class="section-tag">Featured Projects</p>
+          <h2 class="section-title">Hands-On Data & <span class="text-gradient">Business Intelligence</span> Work</h2>
+          <p class="section-subtitle">Real analytical dashboards built to analyze large datasets, extract performance indicators, and drive business decision-making.</p>
+        </div>
+
+        <div class="projects-list">
+          
+          <!-- PROJECT 1: Bank Analytics Dashboard (Featured Flagship) -->
+          <article class="project-card featured-project" id="project-bank">
+            <div class="project-header-top">
+              <div class="project-badge-featured">
+                <svg viewBox="0 0 24 24" width="14" height="14" fill="currentColor" aria-hidden="true">
+                  <polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon>
+                </svg>
+                <span>Flagship Project</span>
+              </div>
+              <span class="project-platform">Power BI</span>
+            </div>
+
+            <div class="project-inner-grid">
+              <!-- Visual Column -->
+              <div class="project-media-col">
+                <div class="project-img-container" tabindex="0" role="button" aria-label="Enlarge Bank Analytics Dashboard Screenshot" data-modal-target="modal-bank-dash">
+                  <img 
+                    src="/projects/bank-analytics-dashboard.png" 
+                    alt="Bank Analytics Executive Power BI Dashboard with KPI metrics, customer charts, and account activity"
+                    class="project-img"
+                    loading="lazy"
+                  >
+                  <div class="img-overlay">
+                    <span class="overlay-text">
+                      <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="11" cy="11" r="8"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line><line x1="11" y1="8" x2="11" y2="14"></line><line x1="8" y1="11" x2="14" y2="11"></line></svg>
+                      Click to Enlarge Dashboard
+                    </span>
+                  </div>
+                </div>
+
+                <!-- Secondary Schema Thumbnail -->
+                <div class="schema-thumbnail-card" tabindex="0" role="button" aria-label="Enlarge Bank Relational Data Model Schema" data-modal-target="modal-bank-model">
+                  <img 
+                    src="/projects/bank-data-model.png" 
+                    alt="Relational Data Modeling Schema for Banking Analytics"
+                    class="schema-thumb-img"
+                    loading="lazy"
+                  >
+                  <div class="schema-thumb-label">
+                    <svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="3" width="18" height="18" rx="2" ry="2"></rect><line x1="3" y1="9" x2="21" y2="9"></line><line x1="9" y1="21" x2="9" y2="9"></line></svg>
+                    <span>View Relational Data Model Schema</span>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Information Column -->
+              <div class="project-info-col">
+                <h3 class="project-title">Bank Analytics Dashboard</h3>
+                
+                <p class="project-description">
+                  Built an executive Power BI dashboard analyzing <strong>5.37K customers</strong>, <strong>4.50K accounts</strong>, <strong>253K transactions</strong>, and <strong>103.26M CZK</strong> in loan exposure. Prepared and transformed relational banking data, established robust table relationships, and developed analytical measures to identify critical banking operations and risks.
+                </p>
+
+                <!-- Exact Project Metrics from Resume -->
+                <div class="project-metrics-strip">
+                  <div class="metric-box">
+                    <span class="metric-num">5.37K</span>
+                    <span class="metric-lbl">Customers</span>
+                  </div>
+                  <div class="metric-box">
+                    <span class="metric-num">4.50K</span>
+                    <span class="metric-lbl">Accounts</span>
+                  </div>
+                  <div class="metric-box">
+                    <span class="metric-num">253K</span>
+                    <span class="metric-lbl">Transactions</span>
+                  </div>
+                  <div class="metric-box">
+                    <span class="metric-num">103.26M</span>
+                    <span class="metric-lbl">CZK Loan Exposure</span>
+                  </div>
+                </div>
+
+                <!-- Key Documented Features -->
+                <div class="features-block">
+                  <h4 class="features-heading">Key Documented Highlights:</h4>
+                  <ul class="features-list">
+                    <li>Prepared and transformed relational banking data, established table relationships, and created analytical measures and KPIs.</li>
+                    <li>Analyzed customer demographics, account activity, card distribution, banking performance trends, and loan status.</li>
+                    <li>Identified key business insights including rising active accounts, <strong>92.6% Silver-card concentration</strong>, and loan-risk exposure for management monitoring.</li>
+                  </ul>
+                </div>
+
+                <!-- Tools -->
+                <div class="project-tools">
+                  <span class="tools-label">Tools Used:</span>
+                  <div class="tool-tags">
+                    <span class="tool-pill">Power BI</span>
+                    <span class="tool-pill">Power Query</span>
+                    <span class="tool-pill">DAX</span>
+                    <span class="tool-pill">Data Modeling</span>
+                    <span class="tool-pill">Data Visualization</span>
+                  </div>
+                </div>
+
+                <!-- Real GitHub Link -->
+                <div class="project-actions">
+                  <a href="https://github.com/sagun-tripathi/end-to-end-banking-financial-project" target="_blank" rel="noopener noreferrer" class="btn btn-primary" id="btn-project-bank-github">
+                    <svg viewBox="0 0 24 24" width="18" height="18" fill="currentColor" aria-hidden="true"><path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0 0 24 12c0-6.63-5.37-12-12-12z"/></svg>
+                    <span>View GitHub Repository</span>
+                  </a>
+                  <button class="btn btn-secondary" data-modal-target="modal-bank-dash">
+                    <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="11" cy="11" r="8"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line><line x1="11" y1="8" x2="11" y2="14"></line><line x1="8" y1="11" x2="14" y2="11"></line></svg>
+                    <span>Dashboard Preview</span>
+                  </button>
+                </div>
+              </div>
+            </div>
+          </article>
+
+          <!-- PROJECT 2: E-Commerce Sales Analytics Dashboard -->
+          <article class="project-card" id="project-ecommerce">
+            <div class="project-header-top">
+              <span class="project-category-badge">E-Commerce Analytics</span>
+              <span class="project-platform">Power BI</span>
+            </div>
+
+            <div class="project-inner-grid">
+              <!-- Visual Column -->
+              <div class="project-media-col">
+                <div class="project-img-container" tabindex="0" role="button" aria-label="Enlarge E-Commerce Sales Analytics Dashboard Screenshot" data-modal-target="modal-ecom-dash">
+                  <img 
+                    src="/projects/ecommerce-sales-dashboard.jpg" 
+                    alt="E-Commerce Sales Analytics Power BI Dashboard tracking Revenue, Orders, AOV, and Cancellation Rate"
+                    class="project-img"
+                    loading="lazy"
+                  >
+                  <div class="img-overlay">
+                    <span class="overlay-text">
+                      <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="11" cy="11" r="8"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line><line x1="11" y1="8" x2="11" y2="14"></line><line x1="8" y1="11" x2="14" y2="11"></line></svg>
+                      Click to Enlarge Dashboard
+                    </span>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Information Column -->
+              <div class="project-info-col">
+                <h3 class="project-title">E-Commerce Sales Analytics Dashboard</h3>
+                
+                <p class="project-description">
+                  Built an interactive Power BI dashboard to track essential retail e-commerce indicators. Applied Power Query for data cleansing and shaping, coupled with DAX to formulate analytical measures and KPI logic for management reporting.
+                </p>
+
+                <!-- Documented Tracked KPIs -->
+                <div class="project-metrics-strip">
+                  <div class="metric-box">
+                    <span class="metric-num">Revenue</span>
+                    <span class="metric-lbl">Total Sales</span>
+                  </div>
+                  <div class="metric-box">
+                    <span class="metric-num">Orders</span>
+                    <span class="metric-lbl">Volume Trends</span>
+                  </div>
+                  <div class="metric-box">
+                    <span class="metric-num">AOV</span>
+                    <span class="metric-lbl">Avg Order Value</span>
+                  </div>
+                  <div class="metric-box">
+                    <span class="metric-num">Cancellation</span>
+                    <span class="metric-lbl">Rate Metric</span>
+                  </div>
+                </div>
+
+                <!-- Key Documented Features -->
+                <div class="features-block">
+                  <h4 class="features-heading">Key Documented Highlights:</h4>
+                  <ul class="features-list">
+                    <li>Built an interactive Power BI dashboard to track key e-commerce KPIs including Revenue, Orders, Average Order Value (AOV), and Cancellation Rate.</li>
+                    <li>Used Power Query for data preparation and transformation, including cleaning and shaping raw data for analysis.</li>
+                    <li>Applied DAX to create analytical measures and support KPI-based business reporting.</li>
+                    <li>Designed a structured data model and interactive visualizations to identify performance trends and generate actionable business insights.</li>
+                  </ul>
+                </div>
+
+                <!-- Tools -->
+                <div class="project-tools">
+                  <span class="tools-label">Tools Used:</span>
+                  <div class="tool-tags">
+                    <span class="tool-pill">Power BI</span>
+                    <span class="tool-pill">Power Query</span>
+                    <span class="tool-pill">DAX</span>
+                    <span class="tool-pill">Data Modeling</span>
+                    <span class="tool-pill">Data Visualization</span>
+                  </div>
+                </div>
+
+                <!-- Verified Actions -->
+                <div class="project-actions">
+                  <button class="btn btn-secondary" data-modal-target="modal-ecom-dash">
+                    <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="11" cy="11" r="8"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line><line x1="11" y1="8" x2="11" y2="14"></line><line x1="8" y1="11" x2="14" y2="11"></line></svg>
+                    <span>Inspect KPI Dashboard</span>
+                  </button>
+                  <span class="project-link-note">
+                    <svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path><polyline points="14 2 14 8 20 8"></polyline></svg>
+                    Resume Documented Project
+                  </span>
+                </div>
+              </div>
+            </div>
+          </article>
+
+          <!-- PROJECT 3: Coffee Sales Analytics Dashboard -->
+          <article class="project-card" id="project-coffee">
+            <div class="project-header-top">
+              <span class="project-category-badge">Sales & Retail Analytics</span>
+              <span class="project-platform">Microsoft Excel</span>
+            </div>
+
+            <div class="project-inner-grid">
+              <!-- Visual Column -->
+              <div class="project-media-col">
+                <div class="project-img-container" tabindex="0" role="button" aria-label="Enlarge Coffee Sales Analytics Dashboard Screenshot" data-modal-target="modal-coffee-dash">
+                  <img 
+                    src="/projects/coffee-sales-dashboard.jpg" 
+                    alt="Coffee Sales Analytics Microsoft Excel Dynamic Dashboard with Pivot Tables, Charts, and Slicers"
+                    class="project-img"
+                    loading="lazy"
+                  >
+                  <div class="img-overlay">
+                    <span class="overlay-text">
+                      <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="11" cy="11" r="8"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line><line x1="11" y1="8" x2="11" y2="14"></line><line x1="8" y1="11" x2="14" y2="11"></line></svg>
+                      Click to Enlarge Dashboard
+                    </span>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Information Column -->
+              <div class="project-info-col">
+                <h3 class="project-title">Coffee Sales Analytics Dashboard</h3>
+                
+                <p class="project-description">
+                  Built an interactive Excel dashboard leveraging dynamic Pivot Tables, Pivot Charts, and custom Slicers. Evaluated coffee sales performance across products, customer tiers, and geographic regions to uncover actionable purchasing patterns.
+                </p>
+
+                <!-- Documented Tracked Dimensions -->
+                <div class="project-metrics-strip">
+                  <div class="metric-box">
+                    <span class="metric-num">By Product</span>
+                    <span class="metric-lbl">Item Breakdown</span>
+                  </div>
+                  <div class="metric-box">
+                    <span class="metric-num">By Customer</span>
+                    <span class="metric-lbl">Account Trends</span>
+                  </div>
+                  <div class="metric-box">
+                    <span class="metric-num">By Country</span>
+                    <span class="metric-lbl">Geographic Sales</span>
+                  </div>
+                  <div class="metric-box">
+                    <span class="metric-num">Slicers</span>
+                    <span class="metric-lbl">Dynamic Filters</span>
+                  </div>
+                </div>
+
+                <!-- Key Documented Features -->
+                <div class="features-block">
+                  <h4 class="features-heading">Key Documented Highlights:</h4>
+                  <ul class="features-list">
+                    <li>Built an interactive Excel dashboard using Pivot Tables, Pivot Charts, and Slicers for dynamic sales analysis.</li>
+                    <li>Analyzed coffee sales performance by product, customer, and country to identify sales patterns and business trends.</li>
+                    <li>Converted transactional sales data into interactive reports that support performance monitoring and business decision-making.</li>
+                  </ul>
+                </div>
+
+                <!-- Tools -->
+                <div class="project-tools">
+                  <span class="tools-label">Tools Used:</span>
+                  <div class="tool-tags">
+                    <span class="tool-pill">Microsoft Excel</span>
+                    <span class="tool-pill">Pivot Tables</span>
+                    <span class="tool-pill">Pivot Charts</span>
+                    <span class="tool-pill">Slicers</span>
+                    <span class="tool-pill">Data Visualization</span>
+                  </div>
+                </div>
+
+                <!-- Real GitHub Link -->
+                <div class="project-actions">
+                  <a href="https://github.com/sagun-tripathi/Coffee-Shop-Sale" target="_blank" rel="noopener noreferrer" class="btn btn-primary" id="btn-project-coffee-github">
+                    <svg viewBox="0 0 24 24" width="18" height="18" fill="currentColor" aria-hidden="true"><path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0 0 24 12c0-6.63-5.37-12-12-12z"/></svg>
+                    <span>View GitHub Repository</span>
+                  </a>
+                  <button class="btn btn-secondary" data-modal-target="modal-coffee-dash">
+                    <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="11" cy="11" r="8"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line><line x1="11" y1="8" x2="11" y2="14"></line><line x1="8" y1="11" x2="14" y2="11"></line></svg>
+                    <span>Dashboard Preview</span>
+                  </button>
+                </div>
+              </div>
+            </div>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- Education Section -->
+    <section class="section education-section" id="education">
+      <div class="container">
+        <div class="section-header">
+          <p class="section-tag">Academic Background</p>
+          <h2 class="section-title">Education & <span class="text-gradient">Qualifications</span></h2>
+        </div>
+
+        <div class="education-card">
+          <div class="edu-badge">
+            <svg viewBox="0 0 24 24" width="28" height="28" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+              <path d="M22 10v6M2 10l10-5 10 5-10 5z"></path>
+              <path d="M6 12v5c3 3 9 3 12 0v-5"></path>
+            </svg>
+          </div>
+          <div class="edu-content">
+            <div class="edu-header">
+              <div>
+                <h3 class="edu-degree">Bachelor of Science (B.Sc.)</h3>
+                <h4 class="edu-institution">Chhatrapati Shahu Ji Maharaj University, Kanpur</h4>
+              </div>
+              <span class="edu-year-badge">2022 – 2025</span>
+            </div>
+            <p class="edu-description">
+              Rigorous scientific and analytical foundation cultivating structured problem-solving, mathematical intuition, quantitative analysis, and rigorous logical inquiry applied to modern data analytics.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Certifications Section -->
+    <section class="section certs-section" id="certifications">
+      <div class="container">
+        <div class="section-header">
+          <p class="section-tag">Continuous Development</p>
+          <h2 class="section-title">Professional <span class="text-gradient">Certifications</span></h2>
+          <p class="section-subtitle">Verified industry credentials and specializations in data analytics, AI workflows, and automation.</p>
+        </div>
+
+        <div class="certs-grid">
+          <!-- Certificate 1: Physics Wallah (with NSDC & PwC) -->
+          <article class="cert-card" id="cert-pw-data-analytics">
+            <div class="cert-thumb-container" tabindex="0" role="button" aria-label="Preview Physics Wallah Data Analytics with Gen AI Certificate" data-modal-target="modal-cert-pw-data-analytics">
+              <img 
+                src="/certificates/physics-wallah-data-analytics-genai.png" 
+                alt="Data Analytics with Gen AI (Offline Batch) Certificate - Issued by Physics Wallah"
+                class="cert-thumb-img"
+                loading="lazy"
+              >
+              <div class="cert-overlay">
+                <span class="cert-overlay-text">
+                  <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="11" cy="11" r="8"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line><line x1="11" y1="8" x2="11" y2="14"></line><line x1="8" y1="11" x2="14" y2="11"></line></svg>
+                  Click to Preview
+                </span>
+              </div>
+            </div>
+
+            <div class="cert-card-body">
+              <div class="cert-header-meta">
+                <span class="cert-org-badge">Physics Wallah</span>
+                <span class="cert-issue-date">24th July 2026</span>
+              </div>
+              
+              <h3 class="cert-title">Data Analytics with Gen AI (Offline Batch)</h3>
+              <p class="cert-org-name">Physics Wallah • In collaboration with NSDC & PwC</p>
+
+              <div class="cert-credential-row">
+                <span class="cert-cred-label">Certificate No:</span>
+                <code class="cert-cred-val">f129aae4-028f-492d-b24d-bf66ac1b45e0</code>
+              </div>
+
+              <p class="cert-desc">
+                Awarded for successfully completing the Data Analytics with Gen AI (Offline Batch) Program, signed by founder Mr. Alakh Pandey.
+              </p>
+
+              <div class="cert-actions">
+                <button class="btn btn-primary btn-sm" data-modal-target="modal-cert-pw-data-analytics" id="btn-view-cert-pw">
+                  <svg viewBox="0 0 24 24" width="15" height="15" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                    <path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"></path>
+                    <circle cx="12" cy="12" r="3"></circle>
+                  </svg>
+                  <span>View Certificate</span>
+                </button>
+                <a href="https://pwskills.com/learn/certificate/f129aae4-028f-492d-b24d-bf66ac1b45e0?isCareerPath=true" target="_blank" rel="noopener noreferrer" class="btn btn-secondary btn-sm" id="btn-verify-cert-pw">
+                  <svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                    <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path>
+                    <polyline points="15 3 21 3 21 9"></polyline>
+                    <line x1="10" y1="14" x2="21" y2="3"></line>
+                  </svg>
+                  <span>Verify Credential</span>
+                </a>
+              </div>
+            </div>
+          </article>
+
+          <!-- Certificate 2: be10x -->
+          <article class="cert-card" id="cert-be10x-ai">
+            <div class="cert-thumb-container" tabindex="0" role="button" aria-label="Preview be10x AI Tools Workshop Certificate" data-modal-target="modal-cert-be10x-ai">
+              <img 
+                src="/certificates/be10x-ai-tools-workshop.png" 
+                alt="AI tools and ChatGPT workshop Certificate - Issued by be10x"
+                class="cert-thumb-img"
+                loading="lazy"
+              >
+              <div class="cert-overlay">
+                <span class="cert-overlay-text">
+                  <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="11" cy="11" r="8"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line><line x1="11" y1="8" x2="11" y2="14"></line><line x1="8" y1="11" x2="14" y2="11"></line></svg>
+                  Click to Preview
+                </span>
+              </div>
+            </div>
+
+            <div class="cert-card-body">
+              <div class="cert-header-meta">
+                <span class="cert-org-badge">be10x</span>
+                <span class="cert-issue-date">July 26th, 2026</span>
+              </div>
+              
+              <h3 class="cert-title">AI tools and ChatGPT workshop</h3>
+              <p class="cert-org-name">be10x • Certificate of Completion</p>
+
+              <div class="cert-credential-row">
+                <span class="cert-cred-label">Credential ID:</span>
+                <code class="cert-cred-val">0270772f-3809-4400-b29b-1e1c61cd09971599549</code>
+              </div>
+
+              <p class="cert-desc">
+                Awarded for completion of the AI tools and ChatGPT workshop. Demonstrating capabilities to create presentations in under 5 min, analyse data in under 30 min, and code & debug in under 10 min.
+              </p>
+
+              <div class="cert-actions">
+                <button class="btn btn-primary btn-sm" data-modal-target="modal-cert-be10x-ai" id="btn-view-cert-be10x">
+                  <svg viewBox="0 0 24 24" width="15" height="15" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                    <path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"></path>
+                    <circle cx="12" cy="12" r="3"></circle>
+                  </svg>
+                  <span>View Certificate</span>
+                </button>
+                <a href="https://certx.in/certificate/0270772f-3809-4400-b29b-1e1c61cd09971599549" target="_blank" rel="noopener noreferrer" class="btn btn-secondary btn-sm" id="btn-verify-cert-be10x">
+                  <svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                    <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path>
+                    <polyline points="15 3 21 3 21 9"></polyline>
+                    <line x1="10" y1="14" x2="21" y2="3"></line>
+                  </svg>
+                  <span>Verify Credential</span>
+                </a>
+              </div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Professional Links / GitHub Hub Section -->
+    <section class="section links-hub-section" id="profiles">
+      <div class="container">
+        <div class="section-header">
+          <p class="section-tag">External Profiles</p>
+          <h2 class="section-title">Verified <span class="text-gradient">Professional Channels</span></h2>
+        </div>
+
+        <div class="hub-grid">
+          <!-- GitHub Card -->
+          <a href="https://github.com/sagun-tripathi" target="_blank" rel="noopener noreferrer" class="hub-card" id="hub-github-card">
+            <div class="hub-icon-wrap github-glow">
+              <svg viewBox="0 0 24 24" width="28" height="28" fill="currentColor" aria-hidden="true"><path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0 0 24 12c0-6.63-5.37-12-12-12z"/></svg>
+            </div>
+            <div class="hub-info">
+              <span class="hub-type">Code Repositories</span>
+              <h3 class="hub-title">GitHub Profile</h3>
+              <p class="hub-url">github.com/sagun-tripathi</p>
+            </div>
+            <span class="hub-arrow" aria-hidden="true">&rarr;</span>
+          </a>
+
+          <!-- LinkedIn Card -->
+          <a href="https://www.linkedin.com/in/sagun-tripathi-554453227" target="_blank" rel="noopener noreferrer" class="hub-card" id="hub-linkedin-card">
+            <div class="hub-icon-wrap linkedin-glow">
+              <svg viewBox="0 0 24 24" width="28" height="28" fill="currentColor" aria-hidden="true"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451c.979 0 1.778-.773 1.778-1.729V1.73C24 .774 23.205 0 22.225 0z"/></svg>
+            </div>
+            <div class="hub-info">
+              <span class="hub-type">Professional Network</span>
+              <h3 class="hub-title">LinkedIn Profile</h3>
+              <p class="hub-url">linkedin.com/in/sagun-tripathi-554453227</p>
+            </div>
+            <span class="hub-arrow" aria-hidden="true">&rarr;</span>
+          </a>
+
+          <!-- Download Resume Card -->
+          <a href="./Sagun_Tripathi_Resume.pdf" download="Sagun_Tripathi_Resume.pdf" target="_blank" rel="noopener noreferrer" class="hub-card" id="hub-resume-card">
+            <div class="hub-icon-wrap resume-glow">
+              <svg viewBox="0 0 24 24" width="28" height="28" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path>
+                <polyline points="14 2 14 8 20 8"></polyline>
+                <line x1="16" y1="13" x2="8" y2="13"></line>
+                <line x1="16" y1="17" x2="8" y2="17"></line>
+                <polyline points="10 9 9 9 8 9"></polyline>
+              </svg>
+            </div>
+            <div class="hub-info">
+              <span class="hub-type">Official Curriculum Vitae</span>
+              <h3 class="hub-title">Download Resume</h3>
+              <p class="hub-url">PDF Document (Verified)</p>
+            </div>
+            <span class="hub-arrow" aria-hidden="true">&darr;</span>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="section contact-section" id="contact">
+      <div class="container">
+        <div class="section-header">
+          <p class="section-tag">Direct Communication</p>
+          <h2 class="section-title">Get In <span class="text-gradient">Touch</span></h2>
+          <p class="section-subtitle">Interested in discussing an entry-level Data Analyst opportunity or dashboard collaboration? Reach out directly.</p>
+        </div>
+
+        <div class="contact-grid">
+          <!-- Direct Details Column -->
+          <div class="contact-details-card">
+            <h3 class="contact-card-title">Contact Information</h3>
+            <p class="contact-intro">
+              Feel free to connect via email, phone, or LinkedIn. I am actively seeking full-time entry-level Data Analyst positions.
+            </p>
+
+            <div class="contact-info-list">
+              <!-- Email Item -->
+              <div class="contact-item">
+                <div class="contact-icon">
+                  <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path><polyline points="22,6 12,13 2,6"></polyline></svg>
+                </div>
+                <div class="contact-meta">
+                  <span class="contact-label">Email Address</span>
+                  <a href="mailto:tiwarishagun2004@gmail.com" class="contact-value" id="contact-email-link">tiwarishagun2004@gmail.com</a>
+                </div>
+                <button class="copy-btn" data-copy="tiwarishagun2004@gmail.com" aria-label="Copy email address" title="Copy email">
+                  <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="9" y="9" width="13" height="13" rx="2" ry="2"></rect><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"></path></svg>
+                </button>
+              </div>
+
+              <!-- Phone Item -->
+              <div class="contact-item">
+                <div class="contact-icon">
+                  <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path></svg>
+                </div>
+                <div class="contact-meta">
+                  <span class="contact-label">Phone</span>
+                  <a href="tel:+916386519074" class="contact-value" id="contact-phone-link">+91-6386519074</a>
+                </div>
+                <button class="copy-btn" data-copy="+91-6386519074" aria-label="Copy phone number" title="Copy phone">
+                  <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="9" y="9" width="13" height="13" rx="2" ry="2"></rect><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"></path></svg>
+                </button>
+              </div>
+
+              <!-- Location Item -->
+              <div class="contact-item">
+                <div class="contact-icon">
+                  <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path><circle cx="12" cy="10" r="3"></circle></svg>
+                </div>
+                <div class="contact-meta">
+                  <span class="contact-label">Location</span>
+                  <span class="contact-value">Lucknow, India</span>
+                </div>
+              </div>
+            </div>
+
+            <!-- Recruiter Quick Summary -->
+            <div class="recruiter-box">
+              <span class="recruiter-pill">Recruiter Summary</span>
+              <p class="recruiter-text">
+                Available for immediate employment as an entry-level Data Analyst. Open to on-site, hybrid, and remote positions.
+              </p>
+            </div>
+          </div>
+
+          <!-- Message Form Column -->
+          <div class="contact-form-card">
+            <h3 class="contact-card-title">Send a Direct Note</h3>
+            <form class="contact-form" id="contact-form" novalidate>
+              <div class="form-group">
+                <label for="form-name" class="form-label">Your Name <span class="required">*</span></label>
+                <input type="text" id="form-name" name="name" class="form-input" placeholder="e.g. Jane Doe" required>
+                <span class="form-error" id="name-error">Please enter your name</span>
+              </div>
+
+              <div class="form-group">
+                <label for="form-email" class="form-label">Your Email <span class="required">*</span></label>
+                <input type="email" id="form-email" name="email" class="form-input" placeholder="e.g. jane@company.com" required>
+                <span class="form-error" id="email-error">Please enter a valid email address</span>
+              </div>
+
+              <div class="form-group">
+                <label for="form-subject" class="form-label">Subject</label>
+                <input type="text" id="form-subject" name="subject" class="form-input" placeholder="e.g. Data Analyst Opportunity" value="Data Analyst Opportunity">
+              </div>
+
+              <div class="form-group">
+                <label for="form-message" class="form-label">Message <span class="required">*</span></label>
+                <textarea id="form-message" name="message" rows="4" class="form-input form-textarea" placeholder="Hello Sagun, I came across your portfolio and would like to connect..." required></textarea>
+                <span class="form-error" id="message-error">Please provide a message</span>
+              </div>
+
+              <button type="submit" class="btn btn-primary btn-block" id="form-submit-btn">
+                <span>Send Message</span>
+                <svg class="icon" viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><line x1="22" y1="2" x2="11" y2="13"></line><polygon points="22 2 15 22 11 13 2 9 22 2"></polygon></svg>
+              </button>
+            </form>
+            <div class="form-success-message" id="form-success-msg" role="status" aria-live="polite">
+              <div class="success-icon-wrap">
+                <svg viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="#10B981" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path><polyline points="22 4 12 14.01 9 11.01"></polyline></svg>
+              </div>
+              <h4>Message Ready!</h4>
+              <p>Thank you for reaching out. A draft has been prepared to open in your email client for Sagun Tripathi.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container footer-container">
+      <div class="footer-top">
+        <div class="footer-brand">
+          <div class="brand">
+            <span class="brand-monogram">ST</span>
+            <span class="brand-text">
+              <span class="brand-name">Sagun Tripathi</span>
+              <span class="brand-sub">Data Analyst</span>
+            </span>
+          </div>
+          <p class="footer-tagline">
+            Specializing in SQL, Power BI, Microsoft Excel, and Tableau. Converting raw operational data into actionable business intelligence.
+          </p>
+        </div>
+
+        <div class="footer-nav">
+          <span class="footer-nav-title">Navigation</span>
+          <ul class="footer-links">
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#experience">Experience</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#education">Education</a></li>
+            <li><a href="#certifications">Certifications</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-contact">
+          <span class="footer-nav-title">Connect</span>
+          <div class="footer-social-icons">
+            <a href="https://github.com/sagun-tripathi" target="_blank" rel="noopener noreferrer" aria-label="GitHub Profile" class="social-icon-btn">
+              <svg viewBox="0 0 24 24" width="18" height="18" fill="currentColor" aria-hidden="true"><path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0 0 24 12c0-6.63-5.37-12-12-12z"/></svg>
+            </a>
+            <a href="https://www.linkedin.com/in/sagun-tripathi-554453227" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn Profile" class="social-icon-btn">
+              <svg viewBox="0 0 24 24" width="18" height="18" fill="currentColor" aria-hidden="true"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451c.979 0 1.778-.773 1.778-1.729V1.73C24 .774 23.205 0 22.225 0z"/></svg>
+            </a>
+            <a href="mailto:tiwarishagun2004@gmail.com" aria-label="Email Sagun" class="social-icon-btn">
+              <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path><polyline points="22,6 12,13 2,6"></polyline></svg>
+            </a>
+          </div>
+          <p class="footer-location">Kannauj, India • +91-6386519074</p>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <p class="copyright">&copy; 2026 Sagun Tripathi. All details strictly verified from official curriculum vitae.</p>
+        <a href="#hero" class="back-to-top" id="back-to-top" aria-label="Back to top">
+          <span>Back to Top</span>
+          <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="18 15 12 9 6 15"></polyline></svg>
+        </a>
+      </div>
+    </div>
+  </footer>
+
+  <!-- LIGHTBOX MODALS FOR HIGH-RESOLUTION DASHBOARD PREVIEWS -->
+  
+  <!-- Modal 1: Bank Dashboard -->
+  <div class="modal" id="modal-bank-dash" role="dialog" aria-modal="true" aria-labelledby="modal-bank-dash-title" aria-hidden="true">
+    <div class="modal-backdrop" data-close-modal></div>
+    <div class="modal-content">
+      <div class="modal-header">
+        <h3 class="modal-title" id="modal-bank-dash-title">Bank Analytics Executive Dashboard | Power BI</h3>
+        <button class="modal-close" data-close-modal aria-label="Close modal">&times;</button>
+      </div>
+      <div class="modal-body">
+        <img src="/projects/bank-analytics-dashboard.png" alt="Executive Power BI Bank Analytics Dashboard" class="modal-img">
+        <div class="modal-caption">
+          <p><strong>Metrics Analyzed:</strong> 5.37K customers, 4.50K accounts, 253K transactions, 103.26M CZK loan exposure, 92.6% Silver-card concentration.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Modal 2: Bank Data Model -->
+  <div class="modal" id="modal-bank-model" role="dialog" aria-modal="true" aria-labelledby="modal-bank-model-title" aria-hidden="true">
+    <div class="modal-backdrop" data-close-modal></div>
+    <div class="modal-content">
+      <div class="modal-header">
+        <h3 class="modal-title" id="modal-bank-model-title">Relational Data Model Schema | Power BI</h3>
+        <button class="modal-close" data-close-modal aria-label="Close modal">&times;</button>
+      </div>
+      <div class="modal-body">
+        <img src="/projects/bank-data-model.png" alt="Relational Data Model Schema for Banking Analysis" class="modal-img">
+        <div class="modal-caption">
+          <p><strong>Architecture:</strong> Prepared and transformed relational banking data, established table relationships, and calculated analytical measures.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Modal 3: E-Commerce Dashboard -->
+  <div class="modal" id="modal-ecom-dash" role="dialog" aria-modal="true" aria-labelledby="modal-ecom-dash-title" aria-hidden="true">
+    <div class="modal-backdrop" data-close-modal></div>
+    <div class="modal-content">
+      <div class="modal-header">
+        <h3 class="modal-title" id="modal-ecom-dash-title">E-Commerce Sales Analytics Dashboard | Power BI</h3>
+        <button class="modal-close" data-close-modal aria-label="Close modal">&times;</button>
+      </div>
+      <div class="modal-body">
+        <img src="/projects/ecommerce-sales-dashboard.jpg" alt="E-Commerce Sales Analytics Power BI Dashboard" class="modal-img">
+        <div class="modal-caption">
+          <p><strong>Core KPIs:</strong> Revenue, Orders, Average Order Value (AOV), and Cancellation Rate with DAX measures.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Modal 4: Coffee Sales Dashboard -->
+  <div class="modal" id="modal-coffee-dash" role="dialog" aria-modal="true" aria-labelledby="modal-coffee-dash-title" aria-hidden="true">
+    <div class="modal-backdrop" data-close-modal></div>
+    <div class="modal-content">
+      <div class="modal-header">
+        <h3 class="modal-title" id="modal-coffee-dash-title">Coffee Sales Analytics Dashboard | Microsoft Excel</h3>
+        <button class="modal-close" data-close-modal aria-label="Close modal">&times;</button>
+      </div>
+      <div class="modal-body">
+        <img src="/projects/coffee-sales-dashboard.jpg" alt="Coffee Sales Analytics Microsoft Excel Dynamic Dashboard" class="modal-img">
+        <div class="modal-caption">
+          <p><strong>Excel Analytics:</strong> Interactive Pivot Tables, Pivot Charts, and Slicers analyzing sales by product, customer, and country.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Modal: Physics Wallah Certificate -->
+  <div class="modal" id="modal-cert-pw-data-analytics" role="dialog" aria-modal="true" aria-labelledby="modal-cert-pw-title" aria-hidden="true">
+    <div class="modal-backdrop" data-close-modal></div>
+    <div class="modal-content modal-cert-content">
+      <div class="modal-header">
+        <h3 class="modal-title" id="modal-cert-pw-title">Data Analytics with Gen AI (Offline Batch) | Physics Wallah</h3>
+        <button class="modal-close" data-close-modal aria-label="Close modal">&times;</button>
+      </div>
+      <div class="modal-body">
+        <img src="/certificates/physics-wallah-data-analytics-genai.png" alt="Official Certificate - Data Analytics with Gen AI (Offline Batch)" class="modal-img">
+        <div class="modal-caption cert-modal-caption">
+          <div>
+            <p><strong>Credential:</strong> Data Analytics with Gen AI (Offline Batch) • <strong>Issuer:</strong> Physics Wallah (NSDC & PwC)</p>
+            <p class="modal-subdetail"><strong>Certificate No:</strong> f129aae4-028f-492d-b24d-bf66ac1b45e0 • <strong>Issued:</strong> 24th July 2026</p>
+          </div>
+          <div class="modal-caption-actions">
+            <a href="./certificates/physics-wallah-data-analytics-genai.pdf" target="_blank" rel="noopener noreferrer" class="btn btn-outline btn-sm">
+              <svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path><polyline points="14 2 14 8 20 8"></polyline><line x1="16" y1="13" x2="8" y2="13"></line><line x1="16" y1="17" x2="8" y2="17"></line><polyline points="10 9 9 9 8 9"></polyline></svg>
+              <span>Open PDF</span>
+            </a>
+            <a href="https://pwskills.com/learn/certificate/f129aae4-028f-492d-b24d-bf66ac1b45e0?isCareerPath=true" target="_blank" rel="noopener noreferrer" class="btn btn-secondary btn-sm">
+              <svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path><polyline points="15 3 21 3 21 9"></polyline><line x1="10" y1="14" x2="21" y2="3"></line></svg>
+              <span>Verify Credential</span>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Modal: be10x Certificate -->
+  <div class="modal" id="modal-cert-be10x-ai" role="dialog" aria-modal="true" aria-labelledby="modal-cert-be10x-title" aria-hidden="true">
+    <div class="modal-backdrop" data-close-modal></div>
+    <div class="modal-content modal-cert-content">
+      <div class="modal-header">
+        <h3 class="modal-title" id="modal-cert-be10x-title">AI tools and ChatGPT workshop | be10x</h3>
+        <button class="modal-close" data-close-modal aria-label="Close modal">&times;</button>
+      </div>
+      <div class="modal-body">
+        <img src="/certificates/be10x-ai-tools-workshop.png" alt="Official Certificate - AI tools and ChatGPT workshop" class="modal-img">
+        <div class="modal-caption cert-modal-caption">
+          <div>
+            <p><strong>Credential:</strong> AI tools and ChatGPT workshop • <strong>Issuer:</strong> be10x</p>
+            <p class="modal-subdetail"><strong>Credential ID:</strong> 0270772f-3809-4400-b29b-1e1c61cd09971599549 • <strong>Issued:</strong> July 26th, 2026</p>
+          </div>
+          <div class="modal-caption-actions">
+            <a href="./certificates/be10x-ai-tools-workshop.pdf" target="_blank" rel="noopener noreferrer" class="btn btn-outline btn-sm">
+              <svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path><polyline points="14 2 14 8 20 8"></polyline><line x1="16" y1="13" x2="8" y2="13"></line><line x1="16" y1="17" x2="8" y2="17"></line><polyline points="10 9 9 9 8 9"></polyline></svg>
+              <span>Open PDF</span>
+            </a>
+            <a href="https://certx.in/certificate/0270772f-3809-4400-b29b-1e1c61cd09971599549" target="_blank" rel="noopener noreferrer" class="btn btn-secondary btn-sm">
+              <svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path><polyline points="15 3 21 3 21 9"></polyline><line x1="10" y1="14" x2="21" y2="3"></line></svg>
+              <span>Verify Credential</span>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Toast Notification Container -->
+  <div class="toast" id="toast" role="status" aria-live="polite">
+    <span class="toast-icon">✓</span>
+    <span class="toast-message" id="toast-message">Copied to clipboard!</span>
+  </div>
+
+  <!-- Scripts -->
+  <script type="module" src="/src/scripts/main.js"></script>
+</body>
+</html>
